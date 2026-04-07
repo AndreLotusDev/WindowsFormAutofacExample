@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsAutofacExample
 {
-    partial class Form1
+    partial class DateWriterForm
     {
         /// <summary>
         /// Required designer variable.
@@ -41,13 +41,13 @@
             this.btnWriteDate.UseVisualStyleBackColor = true;
             this.btnWriteDate.Click += new System.EventHandler(this.btnWriteDate_Click);
             // 
-            // Form1
+            // DateWriterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(392, 282);
             this.Controls.Add(this.btnWriteDate);
-            this.Name = "Form1";
+            this.Name = "DateWriterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Windows Form Autofac Example";
             this.ResumeLayout(false);

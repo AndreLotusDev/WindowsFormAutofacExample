@@ -14,11 +14,11 @@ using WindowsFormsAutofacExample.DependencyResolvers.Autofac;
 
 namespace WindowsFormsAutofacExample
 {
-    public partial class Form1 : Form
+    public partial class DateWriterForm : Form
     {
         private IDateWriter _dateWriter;
 
-        public Form1()
+        public DateWriterForm()
         {
             InitializeComponent();
 
