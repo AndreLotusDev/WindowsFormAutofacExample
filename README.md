@@ -1,8 +1,12 @@
-# Windows Form Autofac Example
-C# Windows Form Autofac Örneği
+# Windows Forms Autofac Example
 
-[Bu linkdeki](https://dotnetfiddle.net/M2REOb) kodlardan faydalanarak bir InstanceFactory oluşturdum.
+This project is a small Windows Forms example that I am using to learn more about Autofac and dependency injection in desktop applications.
 
-Faydalı olması dileğiyle.
+The goal is to keep the example simple while exploring concepts such as:
 
-# Allah cc emanet olun.
+- registering dependencies with Autofac
+- resolving services from a container
+- separating abstractions from concrete implementations
+- wiring dependencies into a Windows Forms application
+
+I use this repository as a learning playground to better understand how Autofac can be applied in a basic WinForms project.
